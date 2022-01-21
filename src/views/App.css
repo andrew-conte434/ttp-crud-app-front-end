@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+#home_sub_header{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+#sub_header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#add_campus_btn{
+  margin-right: 5%;
+  margin-left: auto;
+  margin-top: 1.5%;
+  width: 5%;
+  height: 5%
+}
