@@ -1,10 +1,11 @@
-import react from "react";
+import React from "react";
+import Navbar from "./NavBar";
 
 export default function CampusSingle(props) {
     return (
         <div>
             <h1>Show Campus</h1>
-            {/*navebar*/}
+            <Navbar />
             <div id="campus_card">
                 <img src={props.image}></img>
                 <h3>{props.name}</h3>

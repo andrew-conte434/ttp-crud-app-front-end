@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/css/bootstrap.css';
 import'./NavBar.css'
 
-const NavBar = () => {
+export default function NavBar(){
     return (
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand">Listings</a>
@@ -27,4 +26,3 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;

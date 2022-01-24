@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home_text{
+ margin: 0;
+ position: absolute;
+ background: rgba(0,0,0,0.4); 
+ bottom:0;
+ color: #f1f1f1; 
+ width: 80%; 
+ padding: 0% 3% 0% 1%;
+ font-weight: bold;
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.home_img{
+  background: url("../src/imgs/campus.jpg") no-repeat center center fixed;     
+  /*Source: https://unsplash.com/photos/kfwPJieZVwI by Parker Gibbons on UpSplash*/
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.crud_text{
+  margin-top: 4%;
+}
+
+a:link {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+a:hover {
+  text-decoration: underline;
+  background:#66ff66;
+}
+
+
+
+.nav_bar{
+  justify-content: space-between;
+  padding-top: 1%;
+}
+
+.links{
+  margin: 0% 3% 0% 2%;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.campus_page{
+  background: url("../src/imgs/campus2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#campus_header{
+  color: oldlace;
+  margin-left: 3%;
+  -webkit-text-stroke: .3px black;
+  font-size: 50px;
+}
+
+#campus_sub_header{
+  color: oldlace;
+  margin-left: 5%;
+  -webkit-text-stroke: .3px black;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+
+#add_campus_btn{
+  margin-right: 5%;
+  margin-left: auto;
+  margin-bottom: 10%;
+  width: 20px;
+  height: 20px;
+  white-space: normal;
+  word-wrap: break-word;
+  border-radius: 6px;
+}
